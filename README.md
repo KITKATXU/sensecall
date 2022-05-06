@@ -44,20 +44,3 @@ Then the testing results will be stored in `mymodel/pre_sample.csv`.
 Set your TASKDESCRIPTOR in `run_classifier.py` and run.
 
 
-[Download pretrained models](https://gitlab.com/ZichaoLong/PDE-Net-Checkpoints) and make your working directory like this:
-```
-PDE-Net/
-  aTEAM/
-  figures/
-  learn_variantcoelinear2d.py
-  linpdetest.py
-  ...
-  checkpoint/
-      linpde5x5frozen4order0.015dt0.015noise-double/
-      linpde5x5moment4order0.015dt0.015noise-double/
-      linpde7x7frozen4order0.015dt0.015noise-double/
-      linpde7x7moment4order0.015dt0.015noise-double/
-      nonlinpde7x7frozen2order-double/
-      nonlinpde7x7moment2order-double/
-```
-
