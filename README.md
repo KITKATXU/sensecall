@@ -43,7 +43,6 @@ git submodule update
 
 1. **爬取当天微博热搜话题**
 
-**<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220509150047820.png" alt="image-20220509150047820" style="zoom:67%;" />**
 
 **打开test/get_comment.py，更改为自己的cookie及user-agent并运行,更改示例：**
 
@@ -56,7 +55,6 @@ headers = {
 
 **爬取结果（热门话题及对应话题讨论页url）：**
 
-**![image-20220509150505075](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220509150505075.png)**
 
 
 
@@ -68,11 +66,9 @@ headers = {
 
 **爬虫实例：**
 
-**![image-20220509151045625](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220509151045625.png)**
 
 **存储爬取结果：**
 
-**<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220508132211274.png" alt="image-20220508132211274" style="zoom: 42%;" />**
 
 
 
@@ -140,7 +136,6 @@ t   --bert_config_file=$BERT_BASE_DIR/bert_config.json   --init_checkpoint=$TRAI
 
 **测试结果存储至mymodel/test_results.tsv**
 
-**<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220509153434783.png" alt="image-20220509153434783" style="zoom:67%;" />**
 
 3. **转化结果进行最终评论重排**
 
@@ -151,14 +146,4 @@ t   --bert_config_file=$BERT_BASE_DIR/bert_config.json   --init_checkpoint=$TRAI
 ```
 get_results.py
 ```
-
-**排序结果实例：**
-
-**输入：**
-
-**<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220508134119134.png" alt="image-20220508134119134" style="zoom: 48%;" />**
-
-**输出：**
-
-**<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220508133923582.png" alt="image-20220508133923582" style="zoom:40%;" />**
 
